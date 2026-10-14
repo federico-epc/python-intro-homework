@@ -1,0 +1,5 @@
+# Fahrenheit to Celcius converter
+
+far = float(input("Please enter the temperturet in Fahrenheit (°F):")) # Asks the ue for input
+cel = (far - 32)*5/9            # Actual operation to convert Fahrenheit to Celcius
+print(f"{far} °F is  {cel:.1f} °C")   # Prints the converted temperature
