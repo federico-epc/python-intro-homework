@@ -1,9 +1,7 @@
 num = float(input("Please enter a number: "))
 
 # Check if a number is zero, even, or odd
-if num == 0:
-    print(f"\n{num} is zero")  
-elif num % 2 == 0:
+if num % 2 == 0:
     print(f"\n{num} is even")
 else:
     print(f"\n{num} is odd")
