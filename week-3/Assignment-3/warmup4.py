@@ -1,15 +1,17 @@
 num = float(input("Please enter a number: "))
 
-if num==0:
-  print(f"\n{num} is Zero")
-elif num%2 == 0:
-  print(f"\n{num} is even")
-elif num == 0:
-  print(f"{num} is zero")
+# Check if a number is zero, even, or odd
+if num == 0:
+    print(f"\n{num} is zero")  
+elif num % 2 == 0:
+    print(f"\n{num} is even")
 else:
-  print(f"\n{num} is odd")
+    print(f"\n{num} is odd")
 
-if num*(-1)>0:
-  print(f"{num} is negative")
+# Check whether the number is positive, negative, or zero
+if num < 0:
+    print(f"{num} is negative")
+elif num > 0:
+    print(f"{num} is positive")
 else:
-  print(f"{num} is positive")
+    print(f"{num} is zero")
