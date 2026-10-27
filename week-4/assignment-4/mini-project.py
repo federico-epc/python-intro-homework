@@ -21,10 +21,10 @@ for student in students:                            # The for loop goes over all
 print(f"Top scorer: {hscorer} ({highest})")
 
 # Calculating the average
-sum = 0                     # Initializes twith zero the sum of scores to be updated in every iteration of the loop
+total = 0                     # Initializes twith zero the sum of scores to be updated in every iteration of the loop
 for student in students:    # For loop to iterate over the the full list to extract the score of every student and add it to the values stored in the previous iteratoin
-  sum += student["score"]
-average = sum/len(students) # calculates the average by dividing the sum of the score by the the total number of scores, given by the length of the number of students (i.e., the length of the list)
+  total += student["score"]
+average = total/len(students) # calculates the average by dividing the sum of the score by the the total number of scores, given by the length of the number of students (i.e., the length of the list)
 print(f"Class average: {average}")
 
 
