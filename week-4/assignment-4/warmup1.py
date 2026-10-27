@@ -1,4 +1,4 @@
-list1 = [ "Cocker", "Golden", "Corgi","Poodle", "Akita", "German Shepherd", "Bulldog","Labrador"]
+list1 = [ 12,15,28,29,92,95,97,99]
 
 # Print first item in the list
 print(f"First: {list1[0]}") 
