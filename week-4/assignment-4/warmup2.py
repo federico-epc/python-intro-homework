@@ -8,5 +8,5 @@ print(student.get("subjects"),'\n')                         # Printing only the 
 for key, values in student.items():                         # For loop to print every keys and values in the dictionary
   print(f"{key}:{values},\n")
 
-student["Graduated"] = False                              # Adding a new key and a new value to the dictionary
+student["graduated"] = False                              # Adding a new key and a new value to the dictionary
 print("\n",student)                                              # Printing the new dictionary
