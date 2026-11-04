@@ -1,6 +1,15 @@
 # Printing positive numbers
-number = int(input("Please enter a positive integer: "))
-while number<=0:
-     print(f"{number} is not positive! Try again")
-     number = int(input("Please enter a number "))
-print(f"{number} is a  positive integer!")
+
+while True:
+    try:
+        number = int(input("Please enter a positive integer: "))
+
+        if number > 0:
+            break
+        else:
+            print(f"{number} is not positive! Try again.")
+
+    except ValueError:
+        print("The input is invalid! Please enter an integer.")
+
+print(f"{number} is a positive integer!")
