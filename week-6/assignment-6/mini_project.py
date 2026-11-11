@@ -33,7 +33,7 @@ def search(numbers, target):
         if numbers[i] == target:
             return i
 
-    return -1           # returns none
+    return -1           # returns -1
 
 
 # 4. Sorting function
