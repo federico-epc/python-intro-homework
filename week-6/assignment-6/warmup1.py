@@ -1,8 +1,8 @@
-def greeting(name, greet = "Hello"):  # Defining the function
-  print(f"{greet}, {name}")
+def greet(name, greeting="Hello"):  # Defining the function
+    print(f"{greeting}, {name}")
 
-greeting("Fred")                      # Calling the fuunction with just the argument
+greet("Fred")                       # Calling with only the name
 
-greeting("Fred", "Welcome")           # Calling the fuunction with the argument and a costum greeting
+greet("Fred", "Welcome")            # Calling with both arguments
 
-greeting("Fred",  greet = "Welcome")  # Calling the function using a Keyword argument fot the greeting
+greet("Fred", greeting="Welcome")   # Calling with a keyword argument

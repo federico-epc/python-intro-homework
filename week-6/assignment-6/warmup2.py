@@ -1,11 +1,14 @@
-def celsius_to_fahrenheit(c):
-  return print(f"{c} °C = {(c*9/5)+32:.1f} °F")
 
-celsius_to_fahrenheit(0)
+def celsius_to_fahrenheit(c):    # Function to convert celcius to fahrenheit
+    return (c * 9/5) + 32	
 
-celsius_to_fahrenheit(37.5)
 
-def fahrenheit_to_celsius(f):
-  return print(f"{f} °F is equal to {5*(f-32)/9:.1f} °C")
+def fahrenheit_to_celsius(f):	 # Function to convert fahrenheit to celcius
+    return 5 * (f - 32) / 9
 
-fahrenheit_to_celsius(70)
+print(f"0 °C = {celsius_to_fahrenheit(0):.1f} °F")  # Call the first function and print its result
+
+print(f"37.5 °C = {celsius_to_fahrenheit(37.5):.1f} °F")
+
+
+print(f"70 °F = {fahrenheit_to_celsius(70):.1f} °C")	# Call the second function and print its result
